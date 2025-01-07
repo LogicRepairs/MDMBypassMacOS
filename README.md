@@ -13,10 +13,9 @@
 4. **OS installation**
    
 	1. Enter Recovery mode - 2nd time
-	2. Connect device to the internet to download the recovery mode software
-	3. Once downloaded, install the latest available OS
-	4. After the OS has been installed completely, shutdown
-	5. If the machine restarts automatically and reaches the Country selection page, force shutdown the device at this stage
+	2. Install the latest available OS
+	3. After the OS has been installed completely, shutdown
+	4. If the machine restarts automatically and reaches the Country selection page, force shutdown the device at this stage
     
 6. **Performing MDM Bypass**
 	1. Enter Recovery mode - 3rd time
@@ -31,16 +30,17 @@
 		2. Follow the steps
 		3. When done either type `reboot` or shutdown the device
      
-4. Let the device start at this time
+4. Let the device reboot and enter the setup
    
 5. **New user account creation**
    
-	1. Once the boot process is complete
-	2. Create a new user account
-	3. Logout from the current/temporary account
-	4. Login via the new username
-	5. Delete the temporary account
-	6. Shutdown
+	1. Once the boot process is complete you will have a User login that you previously created as a temp user
+  	2. Login to temp user
+	3. Create a new user account (Make sure it's an Admin user)
+	4. Logout from the current/temporary account
+	5. Login via the new username
+	6. Delete the temporary account
+	7. Shutdown
     
 6. **Disable CSR Utility**
 
